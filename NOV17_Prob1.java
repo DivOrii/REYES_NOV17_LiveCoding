@@ -3,10 +3,10 @@ public class NOV17_Prob1 {
 
     public static void main(String[] args) {
 
-        System.out.println(computeAverage(5, 2));  // Expected 2.5
-        System.out.println(computeAverage(10, 0));  // Expected 0.0
-        System.out.println(computeAverage(100, 8));  // Expected 12.5 
-        System.out.println(computeAverage( 60, 9));  // My own test: Expected 6.666666666666667
+        System.out.println(computeAverage(5, 2));  // Expected 2.5, PASSED
+        System.out.println(computeAverage(10, 0));  // Expected 0.0, PASSED
+        System.out.println(computeAverage(100, 8));  // Expected 12.5, PASSED
+        System.out.println(computeAverage( 60, 9));  // My own test: Expected 6.666666666666667, PASSED!
 
 
     }
