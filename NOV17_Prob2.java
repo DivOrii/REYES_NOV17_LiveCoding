@@ -1,26 +1,24 @@
 public class NOV17_Prob2 {
     public static void main(String[] args) {
 
-        int[] grades1 = {60, 75, 88, 74, 91};
+        int[] grades1 = {60, 75, 88, 74, 91}; 
         int[] grades2 = {};
         int[] grades3 = {70, 69, 80};
-        int[] grades4 = {50, 85, 90, 65};
+        int[] grades4 = {50, 85, 90, 65}; // my own
 
-        System.out.println("TEST 1");
+      
         System.out.println("Loop: " + countPassing(grades1, 75));
-        System.out.println("Recursive: " + countPassingRecursive(grades1, 75, 0)); // MATCHED
+        System.out.println("Recursive: " + countPassingRecursive(grades1, 75, 0)); // EXPECTED LOOP: 3, MATCHED
 
-        System.out.println("\nTEST 2");
         System.out.println("Loop: " + countPassing(grades2, 75));
-        System.out.println("Recursive: " + countPassingRecursive(grades2, 75, 0)); // MATCHED
+        System.out.println("Recursive: " + countPassingRecursive(grades2, 75, 0)); // EXPECTED LOOP: 0, MATCHED
 
-        System.out.println("\nTEST 3");
         System.out.println("Loop: " + countPassing(grades3, 70));
-        System.out.println("Recursive: " + countPassingRecursive(grades3, 70, 0)); // MATCHED
+        System.out.println("Recursive: " + countPassingRecursive(grades3, 70, 0)); // EXPECTED LOOP: 2, MATCHED
 
-        System.out.println("\nTEST 4 (My own testttt)");
+        // Own test
         System.out.println("Loop: " + countPassing(grades4, 80));
-        System.out.println("Recursive: " + countPassingRecursive(grades4, 80, 0)); // MATCHED
+        System.out.println("Recursive: " + countPassingRecursive(grades4, 80, 0)); // EXPECTED LOOP: 2, MATCHED
     }
 
     // PART A, WITH LOOPSS
